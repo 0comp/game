@@ -1,0 +1,12 @@
+{
+  "title": "ORBIT - Energy Clicker",
+  "descriptionFile": "description.txt",
+  "iconFile": "icon.png",
+  "thumbnailFile": "thumbnail-v2.png",
+  "devices": ["Computer", "Phone", "Tablet"],
+  "recommendedMaxPlayers": 12,
+  "dataStoreName": "OrbitEnergyClicker_v1",
+  "initialAudience": "Private",
+  "finalAudience": "Public after account requirements and live save check",
+  "publicationStatus": "Local package; not uploaded by this build"
+}

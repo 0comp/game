@@ -1,0 +1,1 @@
+Automatically clicks 10 times per second while you play.

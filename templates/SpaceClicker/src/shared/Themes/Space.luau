@@ -1,0 +1,52 @@
+-- SPACE PRESET: edit art, copy, colors and worlds here. Economy lives in UpgradeCatalog.
+local C = Color3.fromRGB
+return {
+	Version = 1,
+	GameTitle = "ORBIT",
+	Tagline = "ENERGY CLICKER",
+	NotificationPlacement = "BottomRight",
+	DataStoreName = "OrbitEnergyClicker_v1",
+	AutoSaveSeconds = 60,
+	ClickCooldown = 0.075,
+	MaximumCurrency = 1e18,
+	BaseClickPower = 1,
+	Currency = {Name = "Energy", ShortName = "EN"},
+	Theme = {
+		Background = C(9, 12, 29), Panel = C(18, 24, 47), PanelRaised = C(28, 37, 65),
+		Accent = C(172, 242, 111), AccentAlt = C(154, 143, 255),
+		Text = C(241, 245, 255), MutedText = C(143, 157, 186),
+		Border = C(48, 62, 93), SkyTop = C(13, 24, 47), SkyBottom = C(31, 24, 63),
+		TargetName = "Earth", TargetImageId = "", -- Optional transparent Roblox image for any theme.
+		ClickPrompt = "CLICK THE PLANET", ClickHint = "Every click starts something bigger.",
+		Mission = "BUILD A LITTLE ENERGY EMPIRE", WorldTitle = "THE NEXT FRONTIER",
+		ShopSubtitle = "Small upgrades. Bigger possibilities.", ShopTip = "Buy a drone to keep earning between clicks.",
+		AllWorldsText = "THE UNIVERSE IS YOURS",
+		BurstName = "OVERDRIVE", CollectibleName = "COMET", CollectorStyle = "Drone",
+	},
+	UpgradePresentation = {
+		TapCoil = {Name = "Tap amplifier", Description = "+1 energy per click", Icon = "Bolt", Color = C(172, 242, 111)},
+		MiniDrones = {Name = "Collector drone", Description = "+1 energy per second", Icon = "Drone", Color = C(103, 213, 255)},
+		SolarArray = {Name = "Solar array", Description = "+8 energy per second", Icon = "Solar", Color = C(255, 200, 109)},
+		OrbitalFleet = {Name = "Orbital fleet", Description = "+55 energy per second", Icon = "Satellite", Color = C(184, 160, 255)},
+		Reactor = {Name="Orbital reactor",Description="+150 energy per second",Icon="Solar",Color=C(255,200,109)},
+		LunarMine = {Name="Lunar mine",Description="+1K energy per second",Icon="Satellite",Color=C(199,207,230)},
+		FusionLab = {Name="Fusion lab",Description="+6K energy per second",Icon="Bolt",Color=C(255,145,113)},
+		DysonArray = {Name="Dyson array",Description="+40K energy per second",Icon="Solar",Color=C(255,214,135)},
+		StarForge = {Name="Star forge",Description="+250K energy per second",Icon="Bolt",Color=C(255,170,111)},
+		NebulaHarvester = {Name="Nebula harvester",Description="+1.5M energy per second",Icon="Drone",Color=C(189,148,255)},
+		QuantumGate = {Name="Quantum gate",Description="+10M energy per second",Icon="Satellite",Color=C(103,213,255)},
+		UniverseEngine = {Name="Universe engine",Description="+60M energy per second",Icon="Solar",Color=C(172,242,111)},
+	},
+	-- Art = Earth, Moon, Mars, Gas, Ice, Sun, Void or Cookie; ImageId overrides the built-in 2D illustration.
+	Zones = {
+		{Id = "Earth", Name = "Earth", Subtitle = "The pale blue beginning", UnlockCost = 0, Multiplier = 1, Art = "Earth", Color = C(93, 207, 255)},
+		{Id = "Moon", Name = "Moon", Subtitle = "A giant leap in production", UnlockCost = 1200, Multiplier = 2, Art = "Moon", Color = C(199, 207, 230)},
+		{Id = "Mars", Name = "Mars", Subtitle = "Your next frontier", UnlockCost = 40000, Multiplier = 3, Art = "Mars", Color = C(255, 145, 113)},
+		{Id="Jupiter",Name="Jupiter",UnlockCost=1200000,Multiplier=4,Art="Gas",Color=C(244,191,136)},
+		{Id="Saturn",Name="Saturn",UnlockCost=35000000,Multiplier=5,Art="Gas",Rings=true,Color=C(234,215,157)},
+		{Id="Neptune",Name="Neptune",UnlockCost=1000000000,Multiplier=6,Art="Ice",Color=C(112,151,255)},
+		{Id="Nova",Name="Nova",UnlockCost=30000000000,Multiplier=8,Art="Sun",Color=C(255,174,91)},
+		{Id="Singularity",Name="Singularity",UnlockCost=300000000000,Multiplier=10,Art="Void",Color=C(201,144,255)},
+	},
+	Prestige = {Enabled = true, ButtonName = "Rebirth", BaseRequirement = 1000000, RequirementMultiplier = 4, MultiplierPerPrestige = 0.25},
+}

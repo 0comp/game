@@ -1,0 +1,12 @@
+{
+  "title": "CRUMBLE - Cookie Clicker",
+  "descriptionFile": "description.txt",
+  "iconFile": "icon.png",
+  "thumbnailFile": "thumbnail.png",
+  "devices": ["Computer", "Phone", "Tablet"],
+  "recommendedMaxPlayers": 12,
+  "dataStoreName": "CrumbleClicker_v1",
+  "initialAudience": "Private",
+  "finalAudience": "Public after account requirements and live save check",
+  "publicationStatus": "Local package; not uploaded by this build"
+}

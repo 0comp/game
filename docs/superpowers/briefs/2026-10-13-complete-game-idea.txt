@@ -1,0 +1,70 @@
+The game is a space exploration and pet-collecting game where players upgrade their own spaceship, travel to dangerous planets, collect eggs, and bring them home to earn money.
+
+Every player starts with a plot on the main island and a basic spaceship. Nearby planets are reached through relatively safe routes with a few meteors and no aliens. Farther planets offer more valuable pets, but their routes become increasingly dangerous.
+
+**The main game loop is:**
+
+Prepare your ship → travel to a planet → collect eggs → return before time runs out → bring your haul home → place or sell pets → upgrade → explore farther.
+
+**Collecting eggs and escaping**
+
+Each planet has its own pet families, with rarities ranging from Common to Cosmic. Rarity uses sequential RNG: roll for Cosmic first, then check each lower rarity until a roll succeeds, with Common as the fallback.
+
+Landing starts two timers: a short countdown before the ship can leave, and a longer countdown limiting the total planet visit. Once departure unlocks, players can leave whenever they choose. Staying longer means more opportunities to collect eggs, but less time to return and load them. :codex-annotation{index="1"}
+
+Players can stack as many eggs onto their ship as they want. Cargo upgrades increase the weight the ship handles efficiently. Exceeding that weight gradually reduces speed and acceleration, while a minimum speed ensures the ship can still move.
+
+The proposed time-limit consequence is automatic departure: loaded eggs leave with the ship, the player is recalled, and any egg still being carried is left behind.
+
+This creates a constant choice between a quick return with a small haul and a slower, riskier escape with a large collection.
+
+**Planets and space hazards**
+
+Each region challenges different equipment and piloting skills.
+
+| Region | Main challenge |
+|---|---|
+| Starter region | Sparse, slow meteors and no aliens |
+| Asteroid belt | Dense rocks and narrow passages |
+| Alien territory | Patrol ships that signal attacks before firing |
+| Storm region | Periodic shield disruption and windows of safer travel |
+| Distant regions | Combinations of hazards protecting more valuable pet families |
+
+Danger ratings reflect the player’s current progress through their equipped ship. A route might show **Extreme** with starter equipment and **Manageable** after suitable upgrades. The hazards themselves remain consistent; the rating changes to reflect how prepared the player is. :codex-annotation{index="2"}
+
+Ratings also explain weaknesses, such as “Low shielding against alien attacks.” This helps players decide what to upgrade next.
+
+There are no strict level requirements for reaching harder planets. Skilled players can attempt difficult journeys early, while stronger ships make those journeys more reliable.
+
+**Player competition and bats**
+
+Planet combat uses *Steal an Egg* as the gameplay reference for bat swings, hit reactions, knockback, recovery, and egg-stealing interactions. Exact behavior and tuning should be checked against that reference during development. :codex-annotation{index="3"}
+
+Players compete for eggs while managing their departure timers. Combat can delay a rival’s collection or escape, making time another factor in each encounter.
+
+Discovering members of planet-specific pet families advances the collection index. Milestones unlock bat upgrades or new bat variants. These require balancing so progression feels rewarding while newer players can still compete.
+
+Pets successfully brought home remain safe.
+
+**Plots, pets, and money**
+
+Players bring eggs home to hatch pets, then choose whether to sell those pets for immediate money or place them on their plot to generate income gradually.
+
+Limited plot space creates a reason to replace weaker earners and sell extra pets. Successfully bringing a collectible home permanently records it in the index, so selling it does not erase collection progress.
+
+Each planet has distinct species and families, giving players collection goals alongside financial progression.
+
+**Ship building and upgrades**
+
+Players begin with fixed attachment points where they can install and visibly replace engines, guns, shields, cargo equipment, and hull parts.
+
+Upgrades improve speed, maneuverability, durability, defense, firepower, and cargo handling. Different builds support different strategies:
+
+- Fast ships make quick trips and dodge hazards.
+- Armored ships survive dangerous routes more reliably.
+- Cargo-focused ships transport large hauls with smaller movement penalties.
+- Armed ships deal with alien threats more effectively.
+
+Later, construction can expand into a snapping grid that lets players design their own ship layouts. Fixed attachment points provide the starting version while still allowing customization.
+
+Progress comes from successful expeditions: every haul helps fund a ship capable of reaching farther planets, carrying more eggs, and surviving the journey home.

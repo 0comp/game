@@ -1,0 +1,81 @@
+{
+    "name":  "CRUMBLE",
+    "tree":  {
+                 "$className":  "DataModel",
+                 "ReplicatedStorage":  {
+                                           "$className":  "ReplicatedStorage",
+                                           "ClickerKit":  {
+                                                              "Remotes":  {
+                                                                              "$className":  "Folder",
+                                                                              "RequestAction":  {
+                                                                                                    "$className":  "RemoteEvent"
+                                                                                                },
+                                                                              "RequestClick":  {
+                                                                                                   "$className":  "RemoteEvent"
+                                                                                               },
+                                                                              "RequestPurchase":  {
+                                                                                                      "$className":  "RemoteEvent"
+                                                                                                  },
+                                                                              "RequestZone":  {
+                                                                                                  "$className":  "RemoteEvent"
+                                                                                              },
+                                                                              "RequestPrestige":  {
+                                                                                                      "$className":  "RemoteEvent"
+                                                                                                  },
+                                                                              "RequestSnapshot":  {
+                                                                                                      "$className":  "RemoteEvent"
+                                                                                                  },
+                                                                              "StateUpdate":  {
+                                                                                                  "$className":  "RemoteEvent"
+                                                                                              }
+                                                                          },
+                                                              "Art":  {
+                                                                          "$path":  "../../src/shared/Art.luau"
+                                                                      },
+                                                              "Interface":  {
+                                                                                "$path":  "../../src/shared/Interface.luau"
+                                                                            },
+                                                              "ProgressionCatalog":  {
+                                                                                         "$path":  "../../src/shared/ProgressionCatalog.luau"
+                                                                                     },
+                                                              "UIBuilder":  {
+                                                                                "$path":  "../../src/shared/UIBuilder.luau"
+                                                                            },
+                                                              "UpgradeCatalog":  {
+                                                                                     "$path":  "../../src/shared/UpgradeCatalog.luau"
+                                                                                 },
+                                                              "Themes":  {
+                                                                             "$path":  "../../src/shared/Themes"
+                                                                         },
+                                                              "ThemeConfig":  {
+                                                                                  "$path":  "ThemeConfig.luau"
+                                                                              }
+                                                          }
+                                       },
+                 "ServerScriptService":  {
+                                             "$className":  "ServerScriptService",
+                                             "ClickerTemplate":  {
+                                                                     "$path":  "../../src/server"
+                                                                 }
+                                         },
+                 "StarterPlayer":  {
+                                       "$className":  "StarterPlayer",
+                                       "StarterPlayerScripts":  {
+                                                                    "$className":  "StarterPlayerScripts",
+                                                                    "$path":  "../../src/client"
+                                                                }
+                                   },
+                 "Players":  {
+                                 "$className":  "Players",
+                                 "$properties":  {
+                                                     "CharacterAutoLoads":  false
+                                                 }
+                             },
+                 "StarterGui":  {
+                                    "$className":  "StarterGui",
+                                    "$properties":  {
+                                                        "ScreenOrientation":  "Sensor"
+                                                    }
+                                }
+             }
+}

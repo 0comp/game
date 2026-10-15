@@ -1,0 +1,567 @@
+{
+  "Date": "2026-10-13",
+  "PassMetadata": {
+    "CreatorId": 849112694,
+    "GameId": 10770505196,
+    "PlaceId": 102040393131522,
+    "Passes": {
+      "1": {
+        "Success": true,
+        "ConfiguredName": "Supporter Orbit",
+        "Info": {
+          "AssetTypeId": 0,
+          "Description": "Unlocks the gold supporter palette, nameplate accent, and click effect.",
+          "UserBasePriceInRobux": 79,
+          "IsNew": false,
+          "Updated": "2026-10-12T17:47:39.132Z",
+          "IsLimitedUnique": false,
+          "ProductId": 3718200029,
+          "MinimumMembershipLevel": 0,
+          "Created": "2026-10-12T17:46:20.889Z",
+          "Creator": {
+            "Id": 849112694,
+            "CreatorType": "User",
+            "Name": "0o046",
+            "CreatorTargetId": 849112694
+          },
+          "IsLimited": false,
+          "Sales": 0,
+          "PriceDiscountDetails": [],
+          "IsPublicDomain": false,
+          "AssetId": 0,
+          "Name": "Supporter Orbit",
+          "PriceInRobux": 79,
+          "IconImageAssetId": 133448903949274,
+          "ProductType": "Game Pass",
+          "IsForSale": true,
+          "TargetId": 2025951241
+        },
+        "ConfiguredId": 2025951241,
+        "Key": "SupporterOrbit"
+      },
+      "2": {
+        "Success": true,
+        "ConfiguredName": "Auto Tap",
+        "Info": {
+          "AssetTypeId": 0,
+          "Description": "Adds one server-authorized click every second while you play.",
+          "UserBasePriceInRobux": 199,
+          "IsNew": false,
+          "Updated": "2026-10-12T17:46:09.078Z",
+          "IsLimitedUnique": false,
+          "ProductId": 3718199938,
+          "MinimumMembershipLevel": 0,
+          "Created": "2026-10-12T17:45:50.253Z",
+          "Creator": {
+            "Id": 849112694,
+            "CreatorType": "User",
+            "Name": "0o046",
+            "CreatorTargetId": 849112694
+          },
+          "IsLimited": false,
+          "Sales": 0,
+          "PriceDiscountDetails": [],
+          "IsPublicDomain": false,
+          "AssetId": 0,
+          "Name": "Auto Tap",
+          "PriceInRobux": 199,
+          "IconImageAssetId": 133448903949274,
+          "ProductType": "Game Pass",
+          "IsForSale": true,
+          "TargetId": 2028704251
+        },
+        "ConfiguredId": 2028704251,
+        "Key": "AutoTap"
+      },
+      "3": {
+        "Success": true,
+        "ConfiguredName": "Nebula Palette",
+        "Info": {
+          "AssetTypeId": 0,
+          "Description": "Unlocks the Nebula planet and its matching interface palette.",
+          "UserBasePriceInRobux": 49,
+          "IsNew": false,
+          "Updated": "2026-10-12T17:46:44.276Z",
+          "IsLimitedUnique": false,
+          "ProductId": 3718200052,
+          "MinimumMembershipLevel": 0,
+          "Created": "2026-10-12T17:46:31.251Z",
+          "Creator": {
+            "Id": 849112694,
+            "CreatorType": "User",
+            "Name": "0o046",
+            "CreatorTargetId": 849112694
+          },
+          "IsLimited": false,
+          "Sales": 0,
+          "PriceDiscountDetails": [],
+          "IsPublicDomain": false,
+          "AssetId": 0,
+          "Name": "Nebula Palette",
+          "PriceInRobux": 49,
+          "IconImageAssetId": 133448903949274,
+          "ProductType": "Game Pass",
+          "IsForSale": true,
+          "TargetId": 2025585272
+        },
+        "ConfiguredId": 2025585272,
+        "Key": "NebulaPalette"
+      },
+      "4": {
+        "Success": true,
+        "ConfiguredName": "Double Production",
+        "Info": {
+          "AssetTypeId": 0,
+          "Description": "Permanently doubles click and passive production.",
+          "UserBasePriceInRobux": 149,
+          "IsNew": false,
+          "Updated": "2026-10-12T17:45:28.246Z",
+          "IsLimitedUnique": false,
+          "ProductId": 3718199778,
+          "MinimumMembershipLevel": 0,
+          "Created": "2026-10-12T17:44:58.873Z",
+          "Creator": {
+            "Id": 849112694,
+            "CreatorType": "User",
+            "Name": "0o046",
+            "CreatorTargetId": 849112694
+          },
+          "IsLimited": false,
+          "Sales": 0,
+          "PriceDiscountDetails": [],
+          "IsPublicDomain": false,
+          "AssetId": 0,
+          "Name": "Double Production",
+          "PriceInRobux": 149,
+          "IconImageAssetId": 133448903949274,
+          "ProductType": "Game Pass",
+          "IsForSale": true,
+          "TargetId": 2025543255
+        },
+        "ConfiguredId": 2025543255,
+        "Key": "DoubleProduction"
+      },
+      "5": {
+        "Success": true,
+        "ConfiguredName": "Aurora Palette",
+        "Info": {
+          "AssetTypeId": 0,
+          "Description": "Unlocks the Aurora planet and its matching interface palette.",
+          "UserBasePriceInRobux": 49,
+          "IsNew": false,
+          "Updated": "2026-10-12T17:47:12.691Z",
+          "IsLimitedUnique": false,
+          "ProductId": 3718200124,
+          "MinimumMembershipLevel": 0,
+          "Created": "2026-10-12T17:46:56.206Z",
+          "Creator": {
+            "Id": 849112694,
+            "CreatorType": "User",
+            "Name": "0o046",
+            "CreatorTargetId": 849112694
+          },
+          "IsLimited": false,
+          "Sales": 0,
+          "PriceDiscountDetails": [],
+          "IsPublicDomain": false,
+          "AssetId": 0,
+          "Name": "Aurora Palette",
+          "PriceInRobux": 49,
+          "IconImageAssetId": 133448903949274,
+          "ProductType": "Game Pass",
+          "IsForSale": true,
+          "TargetId": 2026383217
+        },
+        "ConfiguredId": 2026383217,
+        "Key": "AuroraPalette"
+      }
+    },
+    "CreatorType": "Enum.CreatorType.User"
+  },
+  "ProductMetadata": {
+    "Configured": {
+      "1": {
+        "Id": 3718202097,
+        "Name": "Energy Cache",
+        "Key": "SmallEnergy",
+        "Grant": {
+          "Amount": 1200,
+          "Type": "Currency"
+        }
+      },
+      "2": {
+        "Id": 3718202204,
+        "Name": "30-Minute Boost",
+        "Key": "Boost30Minutes",
+        "Grant": {
+          "DurationSeconds": 1800,
+          "Type": "PaidBoost",
+          "Multiplier": 2
+        }
+      },
+      "3": {
+        "Id": 3718202127,
+        "Name": "Energy Crate",
+        "Key": "MediumEnergy",
+        "Grant": {
+          "Amount": 40000,
+          "Type": "Currency"
+        }
+      },
+      "4": {
+        "Id": 3718202156,
+        "Name": "Energy Vault",
+        "Key": "LargeEnergy",
+        "Grant": {
+          "Amount": 1200000,
+          "Type": "Currency"
+        }
+      },
+      "5": {
+        "Id": 3718202184,
+        "Name": "15-Minute Boost",
+        "Key": "Boost15Minutes",
+        "Grant": {
+          "DurationSeconds": 900,
+          "Type": "PaidBoost",
+          "Multiplier": 2
+        }
+      }
+    },
+    "Success": true,
+    "ExperienceProducts": {
+      "Complete": true,
+      "Products": {
+        "1": {
+          "AssetTypeId": 0,
+          "UniverseId": 10770505196,
+          "IconImageAssetId": 88963008124478,
+          "UserBasePriceInRobux": 15,
+          "IsNew": true,
+          "Updated": "2026-10-12T17:57:15.723Z",
+          "IsLimitedUnique": false,
+          "DisplayDescription": "Grants 1,200 spendable Energy.",
+          "ProductId": 3718202097,
+          "MinimumMembershipLevel": 0,
+          "AssetId": 0,
+          "TargetId": 79664428,
+          "Created": "2026-10-12T17:57:15.723Z",
+          "DeveloperProductId": 79664428,
+          "ProductType": "Developer Product",
+          "IsLimited": false,
+          "Creator": {
+            "Id": 0,
+            "CreatorTargetId": 0
+          },
+          "DisplayName": "Energy Cache",
+          "PriceDiscountDetails": [],
+          "displayName": "Energy Cache",
+          "IsPublicDomain": false,
+          "PriceInRobux": 15,
+          "Name": "Energy Cache",
+          "IsForSale": true,
+          "DisplayIconImageAssetId": 88963008124478,
+          "displayIcon": 88963008124478,
+          "Description": "Grants 1,200 spendable Energy.",
+          "displayDescription": "Grants 1,200 spendable Energy."
+        },
+        "2": {
+          "AssetTypeId": 0,
+          "UniverseId": 10770505196,
+          "IconImageAssetId": 88963008124478,
+          "UserBasePriceInRobux": 49,
+          "IsNew": true,
+          "Updated": "2026-10-12T17:57:24.399Z",
+          "IsLimitedUnique": false,
+          "DisplayDescription": "Grants 40,000 spendable Energy.",
+          "ProductId": 3718202127,
+          "MinimumMembershipLevel": 0,
+          "AssetId": 0,
+          "TargetId": 79664445,
+          "Created": "2026-10-12T17:57:24.399Z",
+          "DeveloperProductId": 79664445,
+          "ProductType": "Developer Product",
+          "IsLimited": false,
+          "Creator": {
+            "Id": 0,
+            "CreatorTargetId": 0
+          },
+          "DisplayName": "Energy Crate",
+          "PriceDiscountDetails": [],
+          "displayName": "Energy Crate",
+          "IsPublicDomain": false,
+          "PriceInRobux": 49,
+          "Name": "Energy Crate",
+          "IsForSale": true,
+          "DisplayIconImageAssetId": 88963008124478,
+          "displayIcon": 88963008124478,
+          "Description": "Grants 40,000 spendable Energy.",
+          "displayDescription": "Grants 40,000 spendable Energy."
+        },
+        "3": {
+          "AssetTypeId": 0,
+          "UniverseId": 10770505196,
+          "IconImageAssetId": 88963008124478,
+          "UserBasePriceInRobux": 99,
+          "IsNew": true,
+          "Updated": "2026-10-12T17:57:32.192Z",
+          "IsLimitedUnique": false,
+          "DisplayDescription": "Grants 1,200,000 spendable Energy.",
+          "ProductId": 3718202156,
+          "MinimumMembershipLevel": 0,
+          "AssetId": 0,
+          "TargetId": 79664460,
+          "Created": "2026-10-12T17:57:32.192Z",
+          "DeveloperProductId": 79664460,
+          "ProductType": "Developer Product",
+          "IsLimited": false,
+          "Creator": {
+            "Id": 0,
+            "CreatorTargetId": 0
+          },
+          "DisplayName": "Energy Vault",
+          "PriceDiscountDetails": [],
+          "displayName": "Energy Vault",
+          "IsPublicDomain": false,
+          "PriceInRobux": 99,
+          "Name": "Energy Vault",
+          "IsForSale": true,
+          "DisplayIconImageAssetId": 88963008124478,
+          "displayIcon": 88963008124478,
+          "Description": "Grants 1,200,000 spendable Energy.",
+          "displayDescription": "Grants 1,200,000 spendable Energy."
+        },
+        "4": {
+          "AssetTypeId": 0,
+          "UniverseId": 10770505196,
+          "IconImageAssetId": 88963008124478,
+          "UserBasePriceInRobux": 29,
+          "IsNew": true,
+          "Updated": "2026-10-12T17:57:39.385Z",
+          "IsLimitedUnique": false,
+          "DisplayDescription": "Doubles production for 15 minutes.",
+          "ProductId": 3718202184,
+          "MinimumMembershipLevel": 0,
+          "AssetId": 0,
+          "TargetId": 79664470,
+          "Created": "2026-10-12T17:57:39.385Z",
+          "DeveloperProductId": 79664470,
+          "ProductType": "Developer Product",
+          "IsLimited": false,
+          "Creator": {
+            "Id": 0,
+            "CreatorTargetId": 0
+          },
+          "DisplayName": "15-Minute Boost",
+          "PriceDiscountDetails": [],
+          "displayName": "15-Minute Boost",
+          "IsPublicDomain": false,
+          "PriceInRobux": 29,
+          "Name": "15-Minute Boost",
+          "IsForSale": true,
+          "DisplayIconImageAssetId": 88963008124478,
+          "displayIcon": 88963008124478,
+          "Description": "Doubles production for 15 minutes.",
+          "displayDescription": "Doubles production for 15 minutes."
+        },
+        "5": {
+          "AssetTypeId": 0,
+          "UniverseId": 10770505196,
+          "IconImageAssetId": 88963008124478,
+          "UserBasePriceInRobux": 49,
+          "IsNew": true,
+          "Updated": "2026-10-12T17:57:46.473Z",
+          "IsLimitedUnique": false,
+          "DisplayDescription": "Doubles production for 30 minutes.",
+          "ProductId": 3718202204,
+          "MinimumMembershipLevel": 0,
+          "AssetId": 0,
+          "TargetId": 79664481,
+          "Created": "2026-10-12T17:57:46.473Z",
+          "DeveloperProductId": 79664481,
+          "ProductType": "Developer Product",
+          "IsLimited": false,
+          "Creator": {
+            "Id": 0,
+            "CreatorTargetId": 0
+          },
+          "DisplayName": "30-Minute Boost",
+          "PriceDiscountDetails": [],
+          "displayName": "30-Minute Boost",
+          "IsPublicDomain": false,
+          "PriceInRobux": 49,
+          "Name": "30-Minute Boost",
+          "IsForSale": true,
+          "DisplayIconImageAssetId": 88963008124478,
+          "displayIcon": 88963008124478,
+          "Description": "Doubles production for 30 minutes.",
+          "displayDescription": "Doubles production for 30 minutes."
+        }
+      }
+    }
+  },
+  "ShopLabels": {
+    "OfferDoubleProduction": {
+      "Status": "Owned on this account",
+      "Benefit": "Permanently doubles click and passive production.",
+      "Name": "Double Production",
+      "Purchase": "OWNED"
+    },
+    "OfferSmallEnergy": {
+      "Status": "Saved progress is required for purchases",
+      "Benefit": "1,200 spendable Energy",
+      "Name": "Energy Cache",
+      "Purchase": "SAVE REQUIRED"
+    },
+    "OfferLargeEnergy": {
+      "Status": "Saved progress is required for purchases",
+      "Benefit": "1,200,000 spendable Energy",
+      "Name": "Energy Vault",
+      "Purchase": "SAVE REQUIRED"
+    },
+    "OfferAutoTap": {
+      "Status": "Owned on this account",
+      "Benefit": "Adds ten server-authorized clicks per second.",
+      "Name": "Auto Tap",
+      "Purchase": "OWNED"
+    },
+    "OfferNebulaPalette": {
+      "Status": "Owned on this account",
+      "Benefit": "Unlocks the Nebula planet and interface palette.",
+      "Name": "Nebula Palette",
+      "Purchase": "OWNED"
+    },
+    "OfferBoost15Minutes": {
+      "Status": "Saved progress is required for purchases",
+      "Benefit": "2x production for 15 minutes",
+      "Name": "15-Minute Boost",
+      "Purchase": "SAVE REQUIRED"
+    },
+    "OfferBoost30Minutes": {
+      "Status": "Saved progress is required for purchases",
+      "Benefit": "2x production for 30 minutes",
+      "Name": "30-Minute Boost",
+      "Purchase": "SAVE REQUIRED"
+    },
+    "OfferSupporterOrbit": {
+      "Status": "Owned on this account",
+      "Benefit": "A permanent gold interface palette, nameplate accent, and click effect.",
+      "Name": "Supporter Orbit",
+      "Purchase": "OWNED"
+    },
+    "OfferAuroraPalette": {
+      "Status": "Owned on this account",
+      "Benefit": "Unlocks the Aurora planet and interface palette.",
+      "Name": "Aurora Palette",
+      "Purchase": "OWNED"
+    },
+    "OfferMediumEnergy": {
+      "Status": "Saved progress is required for purchases",
+      "Benefit": "40,000 spendable Energy",
+      "Name": "Energy Crate",
+      "Purchase": "SAVE REQUIRED"
+    }
+  },
+  "Summary": [
+    {
+      "Type": "Pass",
+      "Key": "DoubleProduction",
+      "Name": "Double Production",
+      "Id": 2025543255,
+      "Price": 149,
+      "ForSale": true,
+      "CreatorMatches": true,
+      "ExperienceAssociation": "Not independently confirmed"
+    },
+    {
+      "Type": "Pass",
+      "Key": "AutoTap",
+      "Name": "Auto Tap",
+      "Id": 2028704251,
+      "Price": 199,
+      "ForSale": true,
+      "CreatorMatches": true,
+      "ExperienceAssociation": "Not independently confirmed"
+    },
+    {
+      "Type": "Pass",
+      "Key": "SupporterOrbit",
+      "Name": "Supporter Orbit",
+      "Id": 2025951241,
+      "Price": 79,
+      "ForSale": true,
+      "CreatorMatches": true,
+      "ExperienceAssociation": "Not independently confirmed"
+    },
+    {
+      "Type": "Pass",
+      "Key": "NebulaPalette",
+      "Name": "Nebula Palette",
+      "Id": 2025585272,
+      "Price": 49,
+      "ForSale": true,
+      "CreatorMatches": true,
+      "ExperienceAssociation": "Not independently confirmed"
+    },
+    {
+      "Type": "Pass",
+      "Key": "AuroraPalette",
+      "Name": "Aurora Palette",
+      "Id": 2026383217,
+      "Price": 49,
+      "ForSale": true,
+      "CreatorMatches": true,
+      "ExperienceAssociation": "Not independently confirmed"
+    },
+    {
+      "Type": "Developer product",
+      "Key": "SmallEnergy",
+      "Name": "Energy Cache",
+      "Id": 3718202097,
+      "Price": 15,
+      "ForSale": true,
+      "UniverseMatches": true,
+      "ExperienceAssociation": "Confirmed ORBIT"
+    },
+    {
+      "Type": "Developer product",
+      "Key": "MediumEnergy",
+      "Name": "Energy Crate",
+      "Id": 3718202127,
+      "Price": 49,
+      "ForSale": true,
+      "UniverseMatches": true,
+      "ExperienceAssociation": "Confirmed ORBIT"
+    },
+    {
+      "Type": "Developer product",
+      "Key": "LargeEnergy",
+      "Name": "Energy Vault",
+      "Id": 3718202156,
+      "Price": 99,
+      "ForSale": true,
+      "UniverseMatches": true,
+      "ExperienceAssociation": "Confirmed ORBIT"
+    },
+    {
+      "Type": "Developer product",
+      "Key": "Boost15Minutes",
+      "Name": "15-Minute Boost",
+      "Id": 3718202184,
+      "Price": 29,
+      "ForSale": true,
+      "UniverseMatches": true,
+      "ExperienceAssociation": "Confirmed ORBIT"
+    },
+    {
+      "Type": "Developer product",
+      "Key": "Boost30Minutes",
+      "Name": "30-Minute Boost",
+      "Id": 3718202204,
+      "Price": 49,
+      "ForSale": true,
+      "UniverseMatches": true,
+      "ExperienceAssociation": "Confirmed ORBIT"
+    }
+  ]
+}

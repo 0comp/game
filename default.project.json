@@ -1,0 +1,61 @@
+{
+  "name": "ClickerTemplate2D",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "ClickerKit": {
+        "$path": "src/shared",
+        "Remotes": {
+          "$className": "Folder",
+          "RequestAction": {
+            "$className": "RemoteEvent"
+          },
+          "RequestClick": {
+            "$className": "RemoteEvent"
+          },
+          "RequestPurchase": {
+            "$className": "RemoteEvent"
+          },
+          "RequestZone": {
+            "$className": "RemoteEvent"
+          },
+          "RequestPrestige": {
+            "$className": "RemoteEvent"
+          },
+          "RequestSnapshot": {
+            "$className": "RemoteEvent"
+          },
+          "StateUpdate": {
+            "$className": "RemoteEvent"
+          }
+        }
+      }
+    },
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "ClickerTemplate": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$path": "src/client"
+      }
+    },
+    "Players": {
+      "$className": "Players",
+      "$properties": {
+        "CharacterAutoLoads": false
+      }
+    },
+    "StarterGui": {
+      "$className": "StarterGui",
+      "$properties": {
+        "ScreenOrientation": "Sensor"
+      }
+    }
+  }
+}

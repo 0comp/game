@@ -1,0 +1,98 @@
+[
+  {
+    "Suite": "VerifyOrbitStarSystems",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Total\":30,\"Failures\":0,\"Checks\":[{\"Name\":\"catalogs_have_unique_planets_and_matching_balance\",\"Passed\":true},{\"Name\":\"theme_configs_do_not_share_mutable_tables\",\"Passed\":true},{\"Name\":\"upgrade_catalog_has_exact_approved_values\",\"Passed\":true},{\"Name\":\"directional_purchase_deducts_only_source_wallet\",\"Passed\":true},{\"Name\":\"neighbors_only_and_caps\",\"Passed\":true},{\"Name\":\"incoming_bonuses_are_additive_not_recursive\",\"Passed\":true},{\"Name\":\"economy_applies_incoming_channels_once_and_extends_offline\",\"Passed\":true},{\"Name\":\"ordinary_autobuy_never_buys_interstellar\",\"Passed\":true},{\"Name\":\"legacy_load_preserves_eligible_sun_without_discovery\",\"Passed\":true},{\"Name\":\"each_discovery_resets_all_runs_once\",\"Passed\":true},{\"Name\":\"ordinary_travel_preserves_progress_and_directional_levels\",\"Passed\":true},{\"Name\":\"owned_autobuy_is_gated_until_eight_worlds_return\",\"Passed\":true},{\"Name\":\"inactive_system_never_gets_offline_income_and_expedition_cannot_cross_reset\",\"Passed\":true},{\"Name\":\"daily_claims_cannot_be_farmed_by_discovery\",\"Passed\":true},{\"Name\":\"root_metadata_and_ledger_are_not_duplicated_into_runs\",\"Passed\":true},{\"Name\":\"discovery_commit_is_whole_account_and_duplicate_is_idempotent\",\"Passed\":true},{\"Name\":\"lost_lease_or_revision_cannot_write\",\"Passed\":true},{\"Name\":\"write_then_throw_resolves_committed\",\"Passed\":true},{\"Name\":\"uncommitted_resolution_invalidates_late_write\",\"Passed\":true},{\"Name\":\"store_retries_callback_and_capacity_without_partial_write\",\"Passed\":true},{\"Name\":\"currency_grant_targets_active_star_and_root_ledger\",\"Passed\":true},{\"Name\":\"duplicate_after_travel_or_reset_never_regrants\",\"Passed\":true},{\"Name\":\"legacy_receipt_reconciliation_and_shared_paid_expiry\",\"Passed\":true},{\"Name\":\"receipt_commit_retains_other_systems_links_and_defers_full_wallet\",\"Passed\":true},{\"Name\":\"only_active_run_ticks_and_busy_blocks_mutations\",\"Passed\":true},{\"Name\":\"late_ownership_response_cannot_replace_new_run\",\"Passed\":true},{\"Name\":\"discovery_failure_preserves_source_and_ambiguous_success_resolves\",\"Passed\":true},{\"Name\":\"ordinary_save_preserves_runtime_and_release_releases_lease\",\"Passed\":true},{\"Name\":\"recovery_mode_preserves_account_and_paid_delivery\",\"Passed\":true},{\"Name\":\"malformed_v3_metadata_fails_closed_without_replacement\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitStarUI",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Total\":6,\"Failures\":0,\"Checks\":[{\"Name\":\"configuration_factories_keep_sun_api_and_distinct_planets\",\"Passed\":true},{\"Name\":\"star_map_shows_current_discover_travel_locked_and_reset_confirmation\",\"Passed\":true},{\"Name\":\"stellar_cards_show_direction_cost_effect_and_manual_actions\",\"Passed\":true},{\"Name\":\"twenty_switches_dispose_old_view_and_preserve_reduced_motion\",\"Passed\":true},{\"Name\":\"discovery_sends_only_on_confirmation_and_stale_snapshots_are_ignored\",\"Passed\":true},{\"Name\":\"all_star_views_build_and_real_effects_cleanup\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitStarServer",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Total\":1,\"Failures\":0,\"Checks\":[{\"Name\":\"server_adapter_compiles_and_wires_without_real_services\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitStarClient",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Total\":1,\"Failures\":0,\"Checks\":[{\"Name\":\"client_adapter_has_single_persistent_platform_listeners\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitRelease",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Failures\":0,\"Total\":12,\"Checks\":[{\"Name\":\"Seven worlds rejects Auto Buy without spending\",\"Passed\":true},{\"Name\":\"Eight worlds still requires 500M\",\"Passed\":true},{\"Name\":\"Exact price unlocks permanently; repeat does not charge\",\"Passed\":true},{\"Name\":\"Auto Buy purchases one level of each research only\",\"Passed\":true},{\"Name\":\"Auto Buy obeys maximum and affordability\",\"Passed\":true},{\"Name\":\"Paused Auto Buy does not spend\",\"Passed\":true},{\"Name\":\"Ascend keeps Auto Buy and both toggle choices\",\"Passed\":true},{\"Name\":\"Paid badges reflect pass, timed boost, stacking and expiry\",\"Passed\":true},{\"Name\":\"Paid production applies 2x and stacked 4x\",\"Passed\":true},{\"Name\":\"Auto Tap produces ten clicks per second\",\"Passed\":true},{\"Name\":\"Receipt commit grants once and duplicate does not grant\",\"Passed\":true},{\"Name\":\"Timed boost purchases stack duration once per receipt\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitLayout",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "[{\"Viewport\":\"390, 844\",\"Passed\":true},{\"Viewport\":\"844, 390\",\"Passed\":true},{\"Viewport\":\"375, 667\",\"Passed\":true},{\"Viewport\":\"1280, 800\",\"Passed\":true}]"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitExpansion",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"Total\":9,\"Failures\":0,\"Checks\":[{\"Name\":\"13 worlds, 19 producers, 9 expeditions, 30 achievements and 6 dailies\",\"Passed\":true},{\"Name\":\"IDs are unique and all content fits currency and world limits\",\"Passed\":true},{\"Name\":\"New worlds enforce exact price and allow returning without another charge\",\"Passed\":true},{\"Name\":\"Each new producer respects its unlock and improves production\",\"Passed\":true},{\"Name\":\"New expeditions enforce locks, timing and single reward\",\"Passed\":true},{\"Name\":\"New achievements and dailies claim exactly once\",\"Passed\":true},{\"Name\":\"Expansion progression survives serialization and Ascend\",\"Passed\":true},{\"Name\":\"Both worlds render distinct animated art with reduced-motion support\",\"Passed\":true},{\"Name\":\"Expanded UI renders all cards and both worlds at desktop and phone sizes\",\"Passed\":true}]}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  {
+    "Suite": "VerifyOrbitSaveCompatibility",
+    "Result": {
+      "content": [
+        {
+          "type": "text",
+          "text": "PASS: All existing definitions and DataStore namespace unchanged; old serialized profile restored."
+        }
+      ],
+      "isError": false
+    }
+  }
+]

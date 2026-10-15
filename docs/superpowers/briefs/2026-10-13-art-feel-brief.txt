@@ -1,0 +1,50 @@
+The game should feel like a colorful, brick-built space playground: cozy at home, exciting during expeditions, and slightly chaotic when everyone races back with their eggs.
+The strongest visual direction in your screenshots is the combination of studded surfaces, chunky models, floating islands, pixel-style icons, and bold menus. The linked Drop a Fruit page describes a simple collecting, earning, and upgrading loop. Your game should keep that easy-to-understand sense of progress while giving the expeditions their own personality.
+These are the visual and gameplay-feel guidelines I would add to the game idea.
+1. A handmade, toy-like universe
+Everything should look as though it belongs to the same collection of buildable toys. Use visible studs, simple geometric shapes, thick platforms, and chunky details.
+Ships have oversized engines, recognizable shields, and clearly attached cargo equipment. Trees have blocky trunks and angular leaves. Meteors are irregular clusters of rock, and alien ships have playful silhouettes that players can recognize immediately.
+Use saturated colors with softer background lighting: bright green grass, turquoise machinery, orange engine flames, purple alien terrain, and golden rewards. Keep glow concentrated around things that matter, such as engines, rare eggs, and incoming attacks.
+2. A welcoming home island
+The main island should feel like a place players enjoy returning to. Take inspiration from the grassy floating plots in your screenshots: paths, fences, trees, small decorations, and clear spaces belonging to each player.
+Give it a spaceport identity through landing pads, repair stations, fuel tanks, and friendly robot shopkeepers. Position plots so players can see neighboring collections and upgraded ships.
+Your spaceship should be parked beside your pets. This makes the result of each expedition visible: a fuller collection, a busier plot, and a ship that gradually looks more impressive.
+3. Space that feels colorful and explorable
+Use a deep blue or violet sky with soft nebula colors, scattered stars, and large planet silhouettes. Keep ships and obstacles well lit so players can read the route at a glance.
+Each planet should have a strong visual identity:
+Planet type	Visual feel
+Starter planet	Green grass, rounded hills, friendly plants, warm light
+Crystal planet	Turquoise rocks, purple crystals, shimmering caves
+Desert planet	Orange sand, chunky cliffs, scattered wreckage
+Alien planet	Lime plants, violet ground, strange structures
+Storm planet	Blue-gray terrain, bright lightning, pulsing machinery
+
+
+Carry each planet’s colors and shapes into its eggs and pet family. Players should begin recognizing where a pet comes from just by looking at it.
+4. Responsive flying and playful chaos
+Flying should feel quick to learn, with immediate steering, smooth acceleration, and a small amount of ship banking during turns. Boosting adds brighter exhaust, stronger engine audio, and a subtle camera pullback.
+A loaded ship should visibly feel heavier. Engines work harder, acceleration slows, and the egg pile gently jiggles. The wobble can be visual so eggs remain readable and securely loaded.
+Bat hits should feel punchy and silly: a quick swing, a clear impact sound, a brief star effect, and readable knockback. Use Steal an Egg as the combat reference while giving the effects a space theme.
+5. A clear shift from collecting to escaping
+Early in a planet visit, the atmosphere encourages exploration. Players notice nests, scan for valuable eggs, and decide how much to carry.
+As the time limit approaches, the music becomes faster, the countdown becomes more noticeable, and the ship’s departure lights start flashing. A clear marker helps players find their ship.
+The desired moment is: “I can probably grab one more egg… but I need to get back now.”
+Warnings should build gradually. Players should understand the urgency without constant alarms drowning out the game.
+6. Pets with collectible personality
+Pets should use simple, chunky bodies, expressive faces, and recognizable silhouettes, similar to the blocky animals in your references. Small idle animations—blinking, hopping, sleeping, or looking around—make the plot feel alive.
+Rarity should affect presentation as well as color. Common pets have simple finishes; higher rarities gain distinctive patterns, accessories, or restrained effects. Cosmic pets might have star-filled bodies, orbiting fragments, or a small galaxy effect.
+Finding something rare deserves a short, satisfying flourish. During an expedition, it should leave the player able to move and react.
+7. Bold, consistent menus
+Combine the references into one coherent interface style:
+- Studded header bars and button surfaces.
+- Dark panels with strong borders.
+- Pixel-style headings and icons, with clear text for smaller information.
+- Large pet cards with consistent rarity colors.
+- Green purchase or equip buttons, red sell buttons, and an obvious close button.
+- Silhouettes for undiscovered pets and visible collection progress.
+Use the hexagonal upgrade layout as inspiration for ship progression, with recognizable engine, shield, weapon, and cargo branches.
+During flight and collection, leave the center of the screen open. Prioritize ship health, cargo weight, the planet timer, and the route back to the ship.
+8. Sound that makes progress satisfying
+Home should have relaxed, cheerful electronic music, quiet machinery, and occasional pet sounds. Travel adds a steady rhythm, engine hum, and passing-meteor effects. Dangerous planets introduce tension while keeping the playful tone.
+Give important actions distinct sounds: an egg clicks into cargo, coins arrive with a short chime, a new module attaches with a mechanical clunk, and a completed pet family gets a celebratory jingle.
+The feeling to aim for is “my little space expedition is getting bigger.” Players return to somewhere comfortable, admire what they earned, improve their ship, and feel ready to take another chance.
